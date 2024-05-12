@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Green Tea</title>
+  <link rel="stylesheet" href="static/assets/vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="static/assets/vendors/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" href="static/assets/vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="static/assets/vendors/select2/select2.min.css">
+  <link rel="stylesheet" href="static/assets/vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
+  <link rel="stylesheet" href="static/assets/css/style.css">
+  <link rel="shortcut icon" href="static/assets/images/logomini.jpg" />
+</head>
+
+<body>
+  <div class="container-scroller">
+
+    <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <a  style="color: rgb(5, 255, 5);" class="navbar-brand brand-logo" href="index.html">GreenTea</a>
+          <!-- <img
+            src="static/assets/images/WhatsApp Image 2024-05-08 at 15.45.14_d54ca42a.jpg" alt="logo" /></a> -->
+        <a class="navbar-brand brand-logo-mini" href="index.html"><img
+            src="static/assets/images/logomini.jpg" alt="logo" /></a>
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-stretch">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="mdi mdi-menu"></span>
+        </button>
+        <div class="search-field d-none d-xl-block">
+          <form class="d-flex align-items-center h-100" action="#">
+            <div class="input-group">
+              <div class="input-group-prepend bg-transparent">
+                <i class="input-group-text border-0 mdi mdi-magnify"></i>
+              </div>
+              <input type="text" class="form-control bg-transparent border-0" placeholder="Search products">
+            </div>
+          </form>
+        </div>
+        <ul class="navbar-nav navbar-nav-right">
+          <li class="nav-item  dropdown d-none d-md-block">
+            <div class="dropdown-menu navbar-dropdown" aria-labelledby="reportDropdown">
+              <a class="dropdown-item" href="#">
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">
+            </div>
+          </li>
+
+          <li class="nav-item nav-profile dropdown">
+            <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <div class="nav-profile-img">
+                <img src="static/assets/images/logomini.jpg" alt="image">
+              </div>
+              <div class="nav-profile-text">
+                <p class="mb-1 text-black">Admin Management</p>
+              </div>
+            </a>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+          data-toggle="offcanvas">
+          <span class="mdi mdi-menu"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="container-fluid page-body-wrapper">
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item nav-category">Main</li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
+              <span class="menu-title">Dashboard</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
+              aria-controls="ui-basic">
+              <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
+              <span class="menu-title">Green Leaves</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="green_leaf_costing.html">Green Leaf Costing</a></li>
+                <li class="nav-item"> <a class="nav-link" href="green_leaf_processed.html">Green Leaf Processed</a></li>
+                <li class="nav-item"> <a class="nav-link" href="green_leaf_payment.html">Green Leaf Payment</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+              <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
+              <span class="menu-title">Tea</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="packing_made_tea.html">Packing Made Tea</a></li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="#">Tea produced</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#">Tea sold </a></li> -->
+
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="invoice.html">
+                <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
+                <span class="menu-title">Invoice</span>
+            </a>
+        </li>
+          <li class="nav-item documentation-link">
+            <span class="icon-bg">
+            </span>
+            </a>
+          </li>
+          <li class="nav-item sidebar-user-actions">
+            <div class="user-details">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                  <div class="d-flex align-items-center">
+                    <div class="sidebar-profile-img">
+                      <!-- <img src="static/assets/images/faces/face28.png" alt="image"> -->
+                    </div>
+                    <div class="sidebar-profile-text">
+                      <p class="mb-1">Admin Management</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item sidebar-user-actions">
+            <div class="sidebar-user-menu">
+              <a href="#" class="nav-link"><i class="mdi mdi-settings menu-icon"></i>
+                <span class="menu-title">Settings</span>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item sidebar-user-actions">
+            <div class="sidebar-user-menu">
+              <a href="#" class="nav-link"><i class="mdi mdi-speedometer menu-icon"></i>
+                <span class="menu-title">Take Tour</span></a>
+            </div>
+          </li>
+          <li class="nav-item sidebar-user-actions">
+            <div class="sidebar-user-menu">
+              <a href="#" class="nav-link"><i class="mdi mdi-logout menu-icon"></i>
+                <span class="menu-title">Log Out</span></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="page-header">
+
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Green_Leaf_Processed</h4>
+                  <p class="card-description"> Fill the inputs with care </p>
+                  <form class="forms-sample">
+                    <div class="form-group">
+                      <label for="input1">Date</label>
+                      <input type="Date" class="form-control" id="dot" name="dot">
+                    </div>
+                    <div class="form-group">
+                      <label for="input2">Quantity of Leaf Used</label>
+                      <input type="number" class="form-control" id="qlp" placeholder="enter the quantity" name="qlp">
+                    </div>
+                    <div class="form-group">
+                      <label for="input3">Quantity of Tea Produced</label>
+                      <input type="number" class="form-control" id="qtp" placeholder="enter the quantity" name="qtp">
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2" value="submit">Submit</button>
+                    <button type="reset" class="btn btn-light" value="reset">reset</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Updated Table</h4>
+                <p class="card-description"></p>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Quantity of leaf used</th>
+                      <th>Quantity of tea produced</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>5/4/24</td>
+                      <td>10</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>5/4/24</td>
+                      <td>10</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>5/4/24</td>
+                      <td>10</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>5/4/24</td>
+                      <td>10</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>5/4/24</td>
+                      <td>10</td>
+                      <td>10</td>
+                    </tr>
+                  </tbody>
+                  <div class="form-group">
+                    <label for="totalpurchase">Total Quantity of leaf used(kg):-</label>
+                    <br>
+                    <label for="totalamount">Total Quantity of tea produced(kg):-</label>
+                  </div>
+                </table>
+              </div>
+            </div>
+          </div>
+  <footer class="footer">
+    <div class="footer-inner-wraper">
+      <div class="d-sm-flex justify-content-center justify-content-sm-between py-2">
+        <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="#"
+            target="_blank">Green Tea </a>2024</span>
+      </div>
+    </div>
+  </footer>
+  </div>
+  </div>
+  </div>
+  <script src="static/assets/vendors/js/vendor.bundle.base.js"></script>
+  <script src="static/assets/vendors/select2/select2.min.js"></script>
+  <script src="static/assets/vendors/typeahead.js/typeahead.bundle.min.js"></script>
+  <script src="static/assets/js/off-canvas.js"></script>
+  <script src="static/assets/js/hoverable-collapse.js "></script>
+  <script src="static/assets/js/misc.js "></script>
+  <script src="static/assets/js/file-upload.js "></script>
+  <script src="static/assets/js/typeahead.js "></script>
+  <script src="static/assets/js/select2.js "></script>
+</body>
+
+</html>
